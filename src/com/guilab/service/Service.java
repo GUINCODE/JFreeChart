@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import com.guilab.dao.Application_DAO;
 import com.guilab.domaine.Eleves;
 
-public class Stream_service {
+public class Service {
 	 Application_DAO DAO=new Application_DAO();
 	 
 	public ArrayList<Eleves> serviceAffiche(){

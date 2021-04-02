@@ -52,9 +52,9 @@ public class PieChart extends JFrame {
 		double bon=opera.poucentageBons();
 
     DefaultPieDataset dataset=new DefaultPieDataset();
-    dataset.setValue("Faible[moin de 8]", faible);
-    dataset.setValue("Moyen [>=8 et <14 ]", moyen);
-    dataset.setValue("Bons [>=14]", bon);
+    dataset.setValue("Faible "+faible+"%", faible);
+    dataset.setValue("Moyen "+moyen+"%", moyen);
+    dataset.setValue("Bons "+bon+"%", bon);
    
     return dataset;
   }

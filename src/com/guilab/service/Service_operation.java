@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Service_operation {
 	
-     Stream_service service=new Stream_service();
+     Service service=new Service();
      ArrayList<Double> Listmoyennes =service.lesMoyennes();
      int nbrMoyenne  = Listmoyennes.size();
    
