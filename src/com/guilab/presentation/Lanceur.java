@@ -33,7 +33,7 @@ public class Lanceur {
     	      example.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     	      example.setVisible(true);
     	    });
-      }
+      }   
       
       else  if(a.equals("H")) { 
     	  System.out.println("\t \t Affichage de Histogramme en cours ....");
